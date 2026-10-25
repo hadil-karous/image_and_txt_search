@@ -1,0 +1,20 @@
+{
+  "executed_at_utc": "2026-10-25T21:42:55.971934+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.13",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "logical_cpus": 8,
+  "hardware": {
+    "memory_total_gb": 23.7,
+    "cpu_model": "11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz"
+  },
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-image": "0.26.0",
+    "Pillow": "12.3.0",
+    "fastapi": "0.162.0",
+    "streamlit": "1.66.1",
+    "pytest": "9.1.1"
+  }
+}

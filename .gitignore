@@ -1,0 +1,34 @@
+# Python et environnements locaux
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Paramètres locaux
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# Données originales et artefacts volumineux : garder uniquement les emplacements.
+data/**
+!data/**/
+!data/**/.gitkeep
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Conserver dans Git les rapports de mesures, pas les index ou vecteurs.

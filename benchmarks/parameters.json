@@ -1,0 +1,52 @@
+{
+  "dataset": "mirflickr_25k",
+  "sizes": [
+    500,
+    2500,
+    25000
+  ],
+  "queries": 20,
+  "k": 10,
+  "seed": 2026,
+  "output": "benchmarks",
+  "actual_sizes": [
+    500,
+    2500,
+    25000
+  ],
+  "actual_queries": 20,
+  "query_ids": [
+    427,
+    326,
+    348,
+    410,
+    389,
+    13,
+    150,
+    409,
+    181,
+    39,
+    228,
+    87,
+    357,
+    315,
+    174,
+    178,
+    88,
+    448,
+    50,
+    310
+  ],
+  "subset": "premiers identifiants internes communs, tailles imbriquées",
+  "metric": "euclidean_float64",
+  "normalization": "distance / sqrt(2) (ne change pas le classement)",
+  "warmup_queries": 1,
+  "leaf_size": 32,
+  "exhaustive_distance_block_rows": 2048,
+  "scope": "moteur seul, hors HTTP, hors chargement",
+  "signatures": {
+    "hsv": "7dbb3365e88a9ef66b9873d7076fa3a9de2d58cb5f87b06093353565356de973",
+    "lbp": "40aae5cad8257cee9370865be9a038a1604d68d0cd77ac0384ef4460ab4988e6",
+    "hog": "ca4e0ac1fd5707180480d70072bc7475ac67b8f01a5d1354c9d587131c36d90f"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "families": {
+    "mpeg7_edgehistogram": {
+      "count": 24988,
+      "dimension": 150,
+      "exact_queries": 20,
+      "api_index": true,
+      "api_combined": true,
+      "api_fusion": true
+    },
+    "mpeg7_homogeneoustexture": {
+      "count": 24988,
+      "dimension": 43,
+      "exact_queries": 20,
+      "api_index": true,
+      "api_combined": true,
+      "api_fusion": true
+    }
+  },
+  "streamlit_both_families": true,
+  "archives_and_existing_features_unchanged": true,
+  "protected_files": 614
+}

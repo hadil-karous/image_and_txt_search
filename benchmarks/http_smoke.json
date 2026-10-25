@@ -1,0 +1,292 @@
+{
+  "status": "passed",
+  "bases": [
+    {
+      "name": "mirflickr_25k",
+      "available": true,
+      "image_count": 25000,
+      "annotated_images": 22872,
+      "annotation_kind": "user_tags",
+      "descriptors": [
+        {
+          "name": "hsv",
+          "available": true,
+          "count": 25000,
+          "index_available": true,
+          "dimension": 128,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "lbp",
+          "available": true,
+          "count": 25000,
+          "index_available": true,
+          "dimension": 10,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "hog",
+          "available": true,
+          "count": 25000,
+          "index_available": true,
+          "dimension": 1764,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "mpeg7_edgehistogram",
+          "available": true,
+          "count": 24988,
+          "index_available": true,
+          "dimension": 150,
+          "family": "mpeg7",
+          "distance": "euclidean_after_l2 / 2",
+          "missing_images": 12,
+          "message": null
+        },
+        {
+          "name": "mpeg7_homogeneoustexture",
+          "available": true,
+          "count": 24988,
+          "index_available": true,
+          "dimension": 43,
+          "family": "mpeg7",
+          "distance": "euclidean_after_l2 / 2",
+          "missing_images": 12,
+          "message": null
+        }
+      ],
+      "mpeg7_available": true
+    },
+    {
+      "name": "objects",
+      "available": false,
+      "image_count": 0,
+      "annotated_images": 0,
+      "annotation_kind": "none",
+      "descriptors": [
+        {
+          "name": "hsv",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "lbp",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "hog",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "mpeg7_edgehistogram",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "mpeg7",
+          "distance": "euclidean_after_l2 / 2",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "mpeg7_homogeneoustexture",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "mpeg7",
+          "distance": "euclidean_after_l2 / 2",
+          "missing_images": 0,
+          "message": null
+        }
+      ],
+      "mpeg7_available": false
+    },
+    {
+      "name": "mirflickr_1m",
+      "available": false,
+      "image_count": 0,
+      "annotated_images": 0,
+      "annotation_kind": "none",
+      "descriptors": [
+        {
+          "name": "hsv",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "lbp",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "hog",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "computed",
+          "distance": "euclidean / sqrt(2)",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "mpeg7_edgehistogram",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "mpeg7",
+          "distance": "euclidean_after_l2 / 2",
+          "missing_images": 0,
+          "message": null
+        },
+        {
+          "name": "mpeg7_homogeneoustexture",
+          "available": false,
+          "count": 0,
+          "index_available": false,
+          "dimension": null,
+          "family": "mpeg7",
+          "distance": "euclidean_after_l2 / 2",
+          "missing_images": 0,
+          "message": null
+        }
+      ],
+      "mpeg7_available": false
+    }
+  ],
+  "checks": [
+    {
+      "kind": "text",
+      "body": {
+        "dataset": "mirflickr_25k",
+        "keywords": "sky water",
+        "k": 8
+      },
+      "count": 8,
+      "method_used": "fts5_and",
+      "elapsed_ms": 9.473499958403409,
+      "message": null,
+      "url_checks": 2
+    },
+    {
+      "kind": "visual",
+      "body": {
+        "dataset": "mirflickr_25k",
+        "query_id": 1,
+        "descriptors": [
+          "hsv"
+        ],
+        "method": "indexed",
+        "k": 8
+      },
+      "count": 8,
+      "method_used": "vp_tree",
+      "elapsed_ms": 64.20420005451888,
+      "message": null,
+      "url_checks": 2
+    },
+    {
+      "kind": "visual",
+      "body": {
+        "dataset": "mirflickr_25k",
+        "query_id": 1,
+        "descriptors": [
+          "hsv",
+          "lbp",
+          "hog"
+        ],
+        "weights": [
+          1,
+          1,
+          1
+        ],
+        "k": 8
+      },
+      "count": 8,
+      "method_used": "exhaustive",
+      "elapsed_ms": 591.8168000644073,
+      "message": null,
+      "url_checks": 2
+    },
+    {
+      "kind": "combined",
+      "body": {
+        "dataset": "mirflickr_25k",
+        "query_id": 1,
+        "descriptors": [
+          "hsv"
+        ],
+        "keywords": "sky water",
+        "method": "indexed",
+        "k": 8
+      },
+      "count": 8,
+      "method_used": "exhaustive",
+      "elapsed_ms": 21.45670005120337,
+      "message": "Filtre textuel : classement exhaustif exact des candidats filtrés.",
+      "url_checks": 2
+    },
+    {
+      "kind": "combined",
+      "body": {
+        "dataset": "mirflickr_25k",
+        "query_id": 1,
+        "descriptors": [
+          "hsv"
+        ],
+        "keywords": "zzzxnonexistent",
+        "k": 8
+      },
+      "count": 0,
+      "method_used": "exhaustive",
+      "elapsed_ms": 15.057799988426268,
+      "message": null,
+      "url_checks": 0
+    }
+  ],
+  "requery_passed": true,
+  "seconds": 1.190191900008358
+}

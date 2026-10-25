@@ -1,0 +1,160 @@
+{
+  "status": "verified",
+  "dataset": "mirflickr_25k",
+  "catalog_signature": "134c11497c0bdffa56f562236841ae35b703d39f0fe8da8fbfc72ec3012bc725",
+  "documentation_url": "https://press.liacs.nl/mirflickr/mirdownload.html",
+  "reference_url": "https://press.liacs.nl/mirflickr/mirflickr1m.v3b/images0.zip",
+  "reference_archive_size": 12494849861,
+  "verification": "content CRC32+length; SHA256 examples and exact byte/pixel checks for exceptions",
+  "matched": 24988,
+  "coverage_complete": false,
+  "missing": [
+    608,
+    611,
+    692,
+    705,
+    733,
+    737,
+    798,
+    924,
+    942,
+    1066,
+    1067,
+    1123
+  ],
+  "ambiguous": [],
+  "exception_checks": [
+    {
+      "image_id": 608,
+      "descriptor_id": 607,
+      "member": "images/0/607.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "94c66b3bfac2487a1fe8ad6a4c80d5007d3e57a3021d72405c9f606d32f5c296",
+      "reference_pixel_sha256": "469258ae803671ad822c5b035271eebef5946bb926dbb8aa86ba7eccd4ab55aa"
+    },
+    {
+      "image_id": 611,
+      "descriptor_id": 610,
+      "member": "images/0/610.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "717dbf06213ec7d659a662fab8cb30bdcf6dd46ea933f90fb8697a5ab9f0b2c9",
+      "reference_pixel_sha256": "9637c00661be0fa39fbe7a3d057d016c84ba442ebfad5dc837f575d5c0f9f388"
+    },
+    {
+      "image_id": 692,
+      "descriptor_id": 691,
+      "member": "images/0/691.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "346de24638a0cfeb95f29b8809babf1b88dc38ddf3085c0f0d747837a9d64629",
+      "reference_pixel_sha256": "7bc2f7f833432e932c56de3db73bc8f5056aef137bdc50828925e4fbf270f692"
+    },
+    {
+      "image_id": 705,
+      "descriptor_id": 704,
+      "member": "images/0/704.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "7b930c1afe29c4d79a9849e74265f28b842b444469bae2aaa39fd20637173f9f",
+      "reference_pixel_sha256": "9d38de1314d6551f23dbf4e327da3ffb0761f058ac4e068b62c4856b8645df99"
+    },
+    {
+      "image_id": 733,
+      "descriptor_id": 732,
+      "member": "images/0/732.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "137eeb0c46281a157ed98fc4a7cf65a7f1a5ee545ebd4d068540c42cb3219700",
+      "reference_pixel_sha256": "b4215c851d9d1ee77b23f6a97b8b2a99dad8745a228f19ae69d237cfa75a943c"
+    },
+    {
+      "image_id": 737,
+      "descriptor_id": 736,
+      "member": "images/0/736.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "81ab883d31c389ce8f1d2347544623ab916c6e20c34733e38f83c190830ff0ae",
+      "reference_pixel_sha256": "201a0ed636a8d50b3d402399385cd61b9ef77e983c041919890b1cbbccbf791f"
+    },
+    {
+      "image_id": 798,
+      "descriptor_id": 797,
+      "member": "images/0/797.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "f0604ec6be8284676a16b3eab7659665977b110f5b89c70008ead2a8163d66c4",
+      "reference_pixel_sha256": "4da0529c5b706810779f8d7ec59ccd4a201d7bea2b32ff99f6251eea5e79e545"
+    },
+    {
+      "image_id": 924,
+      "descriptor_id": 923,
+      "member": "images/0/923.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "32894a36702efa570385e85ae6c9b1b3181a6e5a9dcb9d3bd6ec2f73f5add9a0",
+      "reference_pixel_sha256": "31b3213c217ab9ac87dff9e792b84eb2257afceb762b0294bb6f62feb9e008b4"
+    },
+    {
+      "image_id": 942,
+      "descriptor_id": 941,
+      "member": "images/0/941.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "1b1c84329dbfb17270a3a89cffda3593309a0831464787e1d371ee27d79ead0c",
+      "reference_pixel_sha256": "3b76b925dbe00e728e36774736a915ff58de210535423271fa9272cb0167c86c"
+    },
+    {
+      "image_id": 1066,
+      "descriptor_id": 1065,
+      "member": "images/0/1065.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "9948b16e539977fe89537bc7c18c19615f8cfb9a73a936fb1c051f3b8d082ed5",
+      "reference_pixel_sha256": "f4a0a2c693aec53eb4735fc5d26c9315f7cdf7d240b7e4a2670f9b1373f92eaa"
+    },
+    {
+      "image_id": 1067,
+      "descriptor_id": 1066,
+      "member": "images/0/1066.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "1bb938d056cf3b0c39939190abd7035abd4a847825585ccb3c17ca8cae3cdbcd",
+      "reference_pixel_sha256": "3704a662352e7b89f78b09c34b1688df08cf2bd2d0455aa7005654ab8b78de6a"
+    },
+    {
+      "image_id": 1123,
+      "descriptor_id": 1122,
+      "member": "images/0/1122.jpg",
+      "byte_identical": false,
+      "decoded_pixels_identical": false,
+      "local_pixel_sha256": "9db47a5dcd20a9ce907425520ebf86b5caf648f3f61d074391a36d06b28b7938",
+      "reference_pixel_sha256": "9952c0284fe0f77d080e2d195fab8eece527dd67bcd681777e1cd2513e1b2251"
+    },
+    {
+      "image_id": 6602,
+      "descriptor_id": 6601,
+      "member": "images/0/6601.jpg",
+      "byte_identical": true,
+      "decoded_pixels_identical": true,
+      "local_pixel_sha256": "3f9d254fa28d8f6d421a841eae3d72549746d90c01c91187c3afd9435d061233",
+      "reference_pixel_sha256": "3f9d254fa28d8f6d421a841eae3d72549746d90c01c91187c3afd9435d061233"
+    },
+    {
+      "image_id": 6921,
+      "descriptor_id": 6920,
+      "member": "images/0/6920.jpg",
+      "byte_identical": true,
+      "decoded_pixels_identical": true,
+      "local_pixel_sha256": "3f9d254fa28d8f6d421a841eae3d72549746d90c01c91187c3afd9435d061233",
+      "reference_pixel_sha256": "3f9d254fa28d8f6d421a841eae3d72549746d90c01c91187c3afd9435d061233"
+    }
+  ],
+  "transferred_bytes": 13466972,
+  "range_requests": 89,
+  "zero_based_offset_minus_one": true,
+  "checked_at_utc": "2026-10-25T22:36:22.937216+00:00",
+  "signature": "e86110739002d71f63a25aa7a50bbda4c3c031fd26456ab95ff3fce68a317d0a",
+  "sha256_examples": 14
+}

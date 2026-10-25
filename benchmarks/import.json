@@ -1,0 +1,11 @@
+{
+  "dataset": "mirflickr_25k",
+  "discovered": 25000,
+  "imported": 25000,
+  "unreadable": [],
+  "orphan_annotations": [],
+  "annotations_outside_selection": 0,
+  "annotated": 22872,
+  "annotation_kind": "user_tags",
+  "seconds": 109.13573939993512
+}

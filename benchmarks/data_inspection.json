@@ -1,0 +1,147 @@
+{
+  "mirflickr_25k": {
+    "file_counts": {
+      "annotations\\meta\\exif": 25000,
+      "annotations\\meta\\exif_raw": 25000,
+      "annotations\\meta\\license": 25000,
+      "annotations\\meta\\tags": 25000,
+      "annotations\\meta\\tags_raw": 25000,
+      "descriptors\\doc": 3,
+      "images\\mirflickr25k\\mirflickr": 25000
+    },
+    "bytes": 3105579299,
+    "image_ids": 25000,
+    "image_range": [
+      1,
+      25000
+    ],
+    "tags": 25000,
+    "matched": 25000,
+    "orphan_tags": [],
+    "missing_tags": [],
+    "contiguous_1_to_25000": true,
+    "docs": [
+      {
+        "path": "descriptors/doc/common_tags.txt",
+        "sha256": "fecb2671ede422cd10fa201e823a8f84c1c1c0422a6a41d1f28e5620e29ceb9c"
+      },
+      {
+        "path": "descriptors/doc/owner_ids.txt",
+        "sha256": "388b07a02b5f68584b280218bb6891a455a50e9b0276759bdbed893f8882238a"
+      },
+      {
+        "path": "descriptors/doc/readme.txt",
+        "sha256": "e68a319bae52d57208aabb7bacc08a5c1d15b03d7e92163e9b7c0f0dae2c4199"
+      }
+    ],
+    "examples": [
+      {
+        "source_id": 1,
+        "image_present": true,
+        "tags": [
+          "governorsisland",
+          "cigarette",
+          "tattoos",
+          "smoke",
+          "red",
+          "lipstick",
+          "dress",
+          "sunglasses",
+          "shades",
+          "belt"
+        ]
+      },
+      {
+        "source_id": 2,
+        "image_present": true,
+        "tags": [
+          "explore"
+        ]
+      },
+      {
+        "source_id": 10,
+        "image_present": true,
+        "tags": [
+          "hemlock",
+          "ring",
+          "blanket",
+          "brooklyn",
+          "tweed",
+          "giant",
+          "doily",
+          "eco",
+          "wool",
+          "cascade"
+        ]
+      },
+      {
+        "source_id": 100,
+        "image_present": true,
+        "tags": [
+          "farmer",
+          "cisauk",
+          "ricefield",
+          "d300",
+          "18200vr",
+          "nikkor",
+          "teeje",
+          "serpong",
+          "westjava",
+          "indonesia",
+          "platinumphoto",
+          "abigfave"
+        ]
+      },
+      {
+        "source_id": 25000,
+        "image_present": true,
+        "tags": [
+          "canoneos5d",
+          "headstand",
+          "playtime",
+          "upsdiedown",
+          "arushofbloodtothehead",
+          "selfportrait",
+          "self",
+          "me",
+          "margot",
+          "apartmentlife",
+          "brookline",
+          "city",
+          "life",
+          "family",
+          "living",
+          "apartment"
+        ]
+      }
+    ]
+  },
+  "objects": {
+    "file_counts": {},
+    "bytes": 0,
+    "image_ids": 0,
+    "image_range": null,
+    "tags": 0,
+    "matched": 0,
+    "orphan_tags": [],
+    "missing_tags": [],
+    "contiguous_1_to_25000": false,
+    "docs": [],
+    "examples": []
+  },
+  "mirflickr_1m": {
+    "file_counts": {
+      "descriptors": 2
+    },
+    "bytes": 984328257,
+    "image_ids": 0,
+    "image_range": null,
+    "tags": 0,
+    "matched": 0,
+    "orphan_tags": [],
+    "missing_tags": [],
+    "contiguous_1_to_25000": false,
+    "docs": [],
+    "examples": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "hsv": {
+    "count": 25000,
+    "load_seconds": 0.2921846999088302,
+    "build_seconds": 0.3146348000736907
+  },
+  "lbp": {
+    "count": 25000,
+    "load_seconds": 0.3142766000237316,
+    "build_seconds": 0.06247220002114773
+  },
+  "hog": {
+    "count": 25000,
+    "load_seconds": 0.6696302000200376,
+    "build_seconds": 4.24523749994114
+  },
+  "mpeg7_edgehistogram": {
+    "count": 24988,
+    "load_seconds": 0.29720079991966486,
+    "build_seconds": 0.2733517000451684
+  },
+  "mpeg7_homogeneoustexture": {
+    "count": 24988,
+    "load_seconds": 0.1974157999502495,
+    "build_seconds": 0.08817490004003048
+  }
+}

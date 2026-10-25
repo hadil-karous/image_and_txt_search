@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "api": "http://127.0.0.1:8000",
+  "real_catalog_images": 25000,
+  "query_id": 1,
+  "exact_index_ranking": true,
+  "fusion": true,
+  "combined_count": 12,
+  "requery_id": 13573,
+  "empty_results": true,
+  "pagination": true,
+  "visual_browser_check": false
+}

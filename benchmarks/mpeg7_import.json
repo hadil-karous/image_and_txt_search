@@ -1,0 +1,60 @@
+{
+  "mpeg7_edgehistogram": {
+    "count": 24988,
+    "dimension": 150,
+    "total_catalog": 25000,
+    "mapping_matched": 24988,
+    "unmapped_images": 12,
+    "unmapped_image_ids": [
+      608,
+      611,
+      692,
+      705,
+      733,
+      737,
+      798,
+      924,
+      942,
+      1066,
+      1067,
+      1123
+    ],
+    "missing_descriptors": [],
+    "invalid_descriptors": [],
+    "archive_entries": 1000000,
+    "descriptor_payloads_read": 24988,
+    "seconds": 13.46314520004671,
+    "signature": "ad3ed822362398f29ddf11ac42e3458e76d1f79a915ddc32b032bdb6a37b73b3",
+    "raw_min": 0.0,
+    "raw_max": 4.368899822235107
+  },
+  "mpeg7_homogeneoustexture": {
+    "count": 24988,
+    "dimension": 43,
+    "total_catalog": 25000,
+    "mapping_matched": 24988,
+    "unmapped_images": 12,
+    "unmapped_image_ids": [
+      608,
+      611,
+      692,
+      705,
+      733,
+      737,
+      798,
+      924,
+      942,
+      1066,
+      1067,
+      1123
+    ],
+    "missing_descriptors": [],
+    "invalid_descriptors": [],
+    "archive_entries": 1000000,
+    "descriptor_payloads_read": 24988,
+    "seconds": 11.019953000009991,
+    "signature": "8c9b6a534d397507888f1eecd56cdc3622d25d9e641624b689311b7ccae3555c",
+    "raw_min": 0.01942550018429756,
+    "raw_max": 2.3704700469970703
+  }
+}

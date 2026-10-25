@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "real_images": 32,
+  "stable_reimport": true,
+  "exact_indexes": true,
+  "import_report": {
+    "dataset": "mirflickr_25k",
+    "discovered": 25000,
+    "imported": 32,
+    "unreadable": [],
+    "orphan_annotations": [],
+    "annotations_outside_selection": 24968,
+    "annotated": 26,
+    "annotation_kind": "user_tags",
+    "seconds": 0.13818190002348274
+  },
+  "descriptors": {
+    "hsv": {
+      "count": 32,
+      "dimension": 128
+    },
+    "lbp": {
+      "count": 32,
+      "dimension": 10
+    },
+    "hog": {
+      "count": 32,
+      "dimension": 1764
+    }
+  }
+}

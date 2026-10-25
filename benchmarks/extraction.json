@@ -1,0 +1,95 @@
+{
+  "hsv": {
+    "spec": {
+      "version": 1,
+      "method": "hsv",
+      "parameters": {
+        "size": 64,
+        "hsv_bins": [
+          8,
+          4,
+          4
+        ],
+        "lbp_points": 8,
+        "lbp_radius": 1,
+        "hog_orientations": 9,
+        "hog_cell": 8,
+        "hog_block": 2
+      },
+      "catalog_signature": "134c11497c0bdffa56f562236841ae35b703d39f0fe8da8fbfc72ec3012bc725",
+      "skimage": "0.26.0",
+      "pillow": "12.3.0",
+      "numpy": "2.5.4"
+    },
+    "generation": "cc2010a03bc7aafb27af8e77e10e762fb310245d035d9a7490229d24ad1a0357",
+    "count": 25000,
+    "total_catalog": 25000,
+    "dimension": 128,
+    "errors": [],
+    "seconds": 66.19677359994967,
+    "vector_sha256": "2b809af3e3683b3b67287621d309f8df9b7fdcbc2d1e5ae3d94f8a0e02b2e814",
+    "signature": "7dbb3365e88a9ef66b9873d7076fa3a9de2d58cb5f87b06093353565356de973"
+  },
+  "lbp": {
+    "spec": {
+      "version": 1,
+      "method": "lbp",
+      "parameters": {
+        "size": 64,
+        "hsv_bins": [
+          8,
+          4,
+          4
+        ],
+        "lbp_points": 8,
+        "lbp_radius": 1,
+        "hog_orientations": 9,
+        "hog_cell": 8,
+        "hog_block": 2
+      },
+      "catalog_signature": "134c11497c0bdffa56f562236841ae35b703d39f0fe8da8fbfc72ec3012bc725",
+      "skimage": "0.26.0",
+      "pillow": "12.3.0",
+      "numpy": "2.5.4"
+    },
+    "generation": "914508bc73c2e4772dbe423934e25ab75f390948bd984ed0518e3ae0fbacc0c0",
+    "count": 25000,
+    "total_catalog": 25000,
+    "dimension": 10,
+    "errors": [],
+    "seconds": 57.012219100026414,
+    "vector_sha256": "e8ff325b9ebadbebc61e36779e479244f36cb06f77bf5b6257b0dfa5289d7ce5",
+    "signature": "40aae5cad8257cee9370865be9a038a1604d68d0cd77ac0384ef4460ab4988e6"
+  },
+  "hog": {
+    "spec": {
+      "version": 1,
+      "method": "hog",
+      "parameters": {
+        "size": 64,
+        "hsv_bins": [
+          8,
+          4,
+          4
+        ],
+        "lbp_points": 8,
+        "lbp_radius": 1,
+        "hog_orientations": 9,
+        "hog_cell": 8,
+        "hog_block": 2
+      },
+      "catalog_signature": "134c11497c0bdffa56f562236841ae35b703d39f0fe8da8fbfc72ec3012bc725",
+      "skimage": "0.26.0",
+      "pillow": "12.3.0",
+      "numpy": "2.5.4"
+    },
+    "generation": "0079bad4abac25c4f6e4153008694b303a47578354f95c069b7258095071c4db",
+    "count": 25000,
+    "total_catalog": 25000,
+    "dimension": 1764,
+    "errors": [],
+    "seconds": 67.77296720002778,
+    "vector_sha256": "667d4df2df65c755da2451269df2d76ecb2c4e1ef49a2248897d48e3d2eef8cd",
+    "signature": "ca4e0ac1fd5707180480d70072bc7475ac67b8f01a5d1354c9d587131c36d90f"
+  }
+}
